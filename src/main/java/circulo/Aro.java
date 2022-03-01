@@ -4,9 +4,9 @@ package circulo;
  * Probas de refactorización en NetBeans coa clase Aro
  * @author a21mariopm
  */
-public class Aro {
+public final class Aro {
     public static final double MINIMO = 0.0;
-    private static final double LIMITERADIO = 0.0;
+    public static final double LIMITERADIO = 0.0;
     private int coordenadaX;
     private int coordenadaY;
     private double radio;
