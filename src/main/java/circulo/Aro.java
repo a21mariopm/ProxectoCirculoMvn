@@ -6,11 +6,11 @@ package circulo;
  */
 public class Aro {
     public static final double MINIMO = 0.0;
-
+    private static final double LIMITERADIO = 0.0;
     private int coordenadaX;
     private int coordenadaY;
     private double radio;
-    private static final double LIMITERADIO = 0.0;
+    
 
     public Aro() {
     }
@@ -22,7 +22,7 @@ public class Aro {
     }
 
     public void establecerX(int valorX) {
-        coordenadaX=valorX;
+        this.coordenadaX=valorX;
     }
 
     public int obterX() {
@@ -30,7 +30,7 @@ public class Aro {
     }
 
     public void establecerY(int valorY) {
-        coordenadaY=valorY;
+        this.coordenadaY=valorY;
     }
 
     public int obterY() {
