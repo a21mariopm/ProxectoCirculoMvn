@@ -13,7 +13,7 @@ public class Circulo {
 
     public Circulo() {
     }
-
+ 
     public Circulo(int valorX, int valorY, double valorRadio) {
         x = valorX;
         y = valorY;
@@ -67,3 +67,4 @@ public class Circulo {
         y=y + trasladary;
     }
 }
+ 
