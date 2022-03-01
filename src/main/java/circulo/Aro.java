@@ -11,7 +11,9 @@ public class Aro {
     private int coordenadaY;
     private double radio;
     
-
+/**
+ *  constructor vacio
+ */
     public Aro() {
     }
  
