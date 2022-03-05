@@ -3,10 +3,15 @@ package circulo;
 import java.text.DecimalFormat;
 
 /**
- * Main que calcula valores de clase Aro
+ * Calcula valores de clase Aro
  * @author a21mariopm
  */
 public class Main {
+
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         Aro circulo = new Aro(37,43,2.5);
         String saida =
