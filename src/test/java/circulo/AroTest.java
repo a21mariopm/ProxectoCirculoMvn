@@ -1,15 +1,14 @@
-/**
- * Probas para clase Circulo
- * @author a21mariop
- */
 package circulo;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
+ * Calcula medidas
+ * de area, circunferencia, diametro e radio
+ * a partir dos datos dun aro.
  * 
- * @author a21mariopm
+ * @author a21mariop
  */
 public class AroTest {
     
@@ -109,6 +108,7 @@ public class AroTest {
 
     /**
      * Test of obterCircunferencia method, of class Aro.
+     * a partir do valor de radio
      */
     @Test
     public void testObterCircunferencia() {
@@ -121,6 +121,7 @@ public class AroTest {
 
     /**
      * Test of obterSuperficie method, of class Aro.
+     * a partir do valor de radio
      */
     @Test
     public void testObterSuperficie() {

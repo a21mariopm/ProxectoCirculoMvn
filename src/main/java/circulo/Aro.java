@@ -1,7 +1,9 @@
 package circulo;
 
 /**
- * Probas clase Aro
+ * Traballa cos datos dun aro e calcula medidas
+ * de area, circunferencia, diametro e radio
+ * 
  * @author a21mariopm
  */
 public final class Aro {
@@ -79,7 +81,7 @@ public final class Aro {
     }
 
     /**
-     * Obten diametro do radio
+     * Obten diametro a partir do radio
      * @return o radio multiplicado por 2
      */
     public double obterDiametro() {
