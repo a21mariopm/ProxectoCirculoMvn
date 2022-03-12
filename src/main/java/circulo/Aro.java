@@ -50,11 +50,13 @@ public final class Aro {
     public void setRadio(double valorRadio) {
         this.radio = (valorRadio < MINIMO ? MINIMO : valorRadio);
     }
-
+/**
+ *  definicion da constante 
+ */
     private static final double LIMITERADIO = 0.0;
 
     /**
-     * definición das variables
+     * definición da constantes
      */
     public static final double MINIMO = LIMITERADIO;
 
@@ -69,7 +71,7 @@ public final class Aro {
     }
 
     /**
-     * 
+     * Constructor
      * @param valorX
      * @param valorY
      * @param valorRadio
