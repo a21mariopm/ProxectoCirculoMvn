@@ -106,6 +106,11 @@ public final class Aro {
         return Math.PI * radio * radio;
     }
 
+    
+    /**
+    * Retorna información completa dos atributos
+    * @return 
+    */
     @Override
     public String toString() {
         return "Centro = [" + coordenadaX + "," + coordenadaY + "]; Radio = " + radio;
